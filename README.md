@@ -24,3 +24,16 @@ Repositorio para proyectos nuevos en Python
 - git fetch | Actualizar la información del repositorio.
 - git fetch --prune | Actualizar los cambios pendientes que pueda tener el repositorio.
 
+- git fetch --prune; git pull origin | Actualiza y trae los cambios mas recientes del repositorio.
+
+
+- git checkout -b feature/NUEVA-FUNCIONALIDAD | Crear nueva funcionalidad en Desarrollo.
+- git checkout -b release/NUEVA-VERSION | Crear liberación de codigo. Desarrollo -> Producción.
+- git checkout -b hotfix/NUEVA-ARREGLO | Corregir errores criticos en la rama Producción.
+
+- git branch -D RAMA-A-ELIMINAR | Forzar la eliminación de la rama del repositorio local.
+- git fetch --prune; git pull origin | Actualiza y trae los cambios mas recientes del repositorio.
+
+# Conceptos
+
+- PR o PA: Pull request
