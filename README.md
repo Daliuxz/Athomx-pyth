@@ -2,6 +2,7 @@
 
 Introducción a GIT y GITHUB.
 
+-----------------------------------------------------------------------------------------------------------------------
 
 # Comandos Git
 
@@ -21,13 +22,15 @@ Introducción a GIT y GITHUB.
 
 - git pull origin RAMA | *Traer los cambios del repositorio remoto al local.*
 
+-----------------------------------------------------------------------------------------------------------------------
 
 # Conceptos
 
 - PR o PA: Pull request | *Validación del codigo/funcion/version/fix y pasar los cambios a la rama principal.*
 
+-----------------------------------------------------------------------------------------------------------------------
 
-##### Crear PULL REQUEST #####
+# Crear PULL REQUEST
 
 *Se obtiene las ultimas actualizaciones de la rama principal.*
 - git fetch --prune; git pull origin | *Actualiza y trae los cambios mas recientes del repositorio remoto.*
@@ -53,8 +56,9 @@ Introducción a GIT y GITHUB.
 - git fetch | Actualizar la información del repositorio.
 - git fetch --prune | Actualizar los cambios pendientes que pueda tener el repositorio remoto.
 
+-----------------------------------------------------------------------------------------------------------------------
 
-##### Generar nuevas ramas de trabajo #####
+# Generar nuevas ramas de trabajo
 
 *Se obtiene las ultimas actualizaciones de la rama principal.*
 - git fetch --prune; git pull origin | *Actualiza y trae los cambios mas recientes del repositorio remoto.*
@@ -82,8 +86,9 @@ Introducción a GIT y GITHUB.
 - git branch -D feature/NUEVA-FUNCIONALIDAD | *Forzar la eliminación de la rama del repositorio local.*
 - git fetch --prune; git pull origin | *Actualiza y trae los cambios mas recientes del repositorio remoto.*
 
+-----------------------------------------------------------------------------------------------------------------------
 
-##### Generar una version para liberar #####
+# Generar una version para liberar
 
 *Se obtiene las ultimas actualizaciones de la rama.*
 - git checkout RAMA; git pull origin RAMA | *Seleccionar RAMA y traer los cambios mas recientes del repositorio remoto.*
@@ -98,8 +103,6 @@ Introducción a GIT y GITHUB.
 - git push origin release/VERSION | *Enviar los cambios de la rama nueva al repositorio remoto.*
 
 *Se enviara un PULL REQUEST desde github.*
-
------------------------------------------------------------------------------------------------------------------------
 
 *Subir al main manualmente*
 - git checkout main; git pull origin main | *Seleccionar RAMA y traer los cambios mas recientes del repositorio remoto.*
@@ -118,5 +121,7 @@ Introducción a GIT y GITHUB.
 *Proceso de eliminación del release enviado.*
 - git branch -D release/VERSION | *Forzar la eliminación de la rama del repositorio local.*
 - git push origin --delete release/VERSION | *Se eliminara la rama del repositorio remoto.*
+
+-----------------------------------------------------------------------------------------------------------------------
 
 
